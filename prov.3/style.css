@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+     ". .   a ." 
+     ". txt txt b" 
+     "a b c d" 
+     "a b c d" 
+     "a b c d" 
+     
+     
+    ;
+    
+    
+
+    
+    
+
+
+}
+
+#section{
+    
+    min-height: 200px;
+}
+#a{
+    grid: a;
+    background-image: url(images/Wynton-Marsalis.jpg);
+    background-size:cover;
+    grid-area: 50px;
+
+
+}
+}
+#b{
+    grid: b;
+    background-image: url(images/Wynton-Marsalis.jpg);
+    background-size:cover ;
+    grid-area: 50px;
+
+
+}
+}
+#c{
+    grid: c;
+    background-image: url(images/Wynton-Marsalis.jpg);
+    background-size:cover ;
+    
+
+
+}
+}
+#d{
+    grid: d;
+    background-image: url(images/Wynton-Marsalis.jpg);
+    background-size:cover ;
+
+
+}
+
+#e{
+    grid: e;
+    background-image: url(images/Wynton-Marsalis.jpg);
+    background-size:cover ;
+
+
+}
+
+

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+}
+
+
+header{
+
+    background-color: orange;
+    color:whitesmoke;
+    text-align: center;
+    padding: 60px;
+} 
+
+h1{
+    color: orange;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 10px 0px 0px 0px;
+    margin-top: 10px;
+}
+
+nav a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    background:lightgreen ;
+
+}
+
+nav a:hover{
+    background:;
+}
+
+nav a span{
+    margin-right: 8px;
+    color: orange;
+}
+
+

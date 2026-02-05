@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url('images/cones.jpg');
+    padding: 100px;
+    background-size: cover;
+    
+}
+
+nav{
+    
+}

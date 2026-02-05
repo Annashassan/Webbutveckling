@@ -1,0 +1,151 @@
+v   mn@charset "UTF-8";
+
+
+body{
+    margin: 0;
+
+}
+
+header{
+
+    background-color:black;
+color:whitesmoke;
+text-align: center;
+padding: 60px; 
+}
+
+h1{
+    color: orange;
+    font-weight:normal;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+
+h3{
+    margin: 10px 0 0 0;
+    margin-top: 10 px
+    ;
+}
+
+nav{
+    background: grey;
+
+}
+
+nav a{
+    color:yellow;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    align-items: center;
+    background: #444;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+nav a span{
+    margin-right: 8px;
+    color:grey;
+}
+
+active{
+    color: blue;
+}
+
+main{
+    display:flex;
+
+}
+
+article, aside{
+    padding: 10px;
+}
+
+article{
+    flex: 2;
+    background: #eee;
+}
+
+.ninja{
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    border: 1px solid #fc3;
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+
+aside{
+    flex: 1;
+}
+
+
+
+footer{
+    display: flex;
+    background:black;
+    margin: 0;
+    color: white;
+}
+section{
+    flex: 1;
+    margin: 14px;
+    
+}
+h4{
+    color:orange;
+    margin-bottom: 0;
+}
+
+section p{
+    color:white;
+    margin-top: 0;
+}
+
+#venedig{
+    background: url('venedig.jpg');
+}
+
+
+aside div{
+    background-size: cover;
+    padding: 80px 8px 8px 8px;
+
+}
+div section{
+    background: rgba(0,0,0,.3 );
+    padding: 8px;
+    color: white;
+}
+
+h5{
+    margin: 0;
+}
+
+#yeye section p{
+    margin: 0;
+}
+
+div#yeye{
+    background: url('yeye.jpg');
+    background-size: cover;
+    padding: 80px 8px 8px 8px;
+    margin-top: 7px;
+}
+#yeye section{
+    background: rgba(0,0,0,.3 );
+    padding: 8px;
+    color: white;
+}
+
+#yeye section p{
+    margin: 0;
+}
+ 
+
+
